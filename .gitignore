@@ -1,0 +1,36 @@
+# Dependências do Composer
+/vendor/
+
+
+# Arquivos de cache
+/cache/
+/*.cache
+*.log
+
+# Diretórios e arquivos temporários do PHP
+*.log
+*.tmp
+*.temp
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs
+.idea/
+.vscode/
+
+# Arquivos de logs e relatórios
+logs/
+*.log
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local
+
+# Outras pastas ignoráveis
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
